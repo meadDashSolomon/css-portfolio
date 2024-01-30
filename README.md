@@ -1,17 +1,17 @@
 # CSS Portfolio
 
-This is a CSS and HTML based portfolio.
+This portfolio features stylized text, CSS gradients, navigation bars, and semantic HTML. In addition, responsive styling makes this site look great on both desktop and mobile devices.
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Table of Contents:
 
-1. Description
+1. Demo
 2. Further Improvements
 
-## Description
+## Demo
 
-This portfolio website features stylized text, CSS gradients, navigation bars, and semantic HTML. Responsive styling makes this site look great on both desktops and mobile devices. The homepage displays my recent projects and the about page provides information about who I am.
+👉 <a href="meadsolomon.com" target="_blank">Deployed Link</a> </br></br>
 
 ![Intro Screenshot](img/screenshot.png)
 
