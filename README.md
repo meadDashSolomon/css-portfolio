@@ -11,7 +11,7 @@ This portfolio features stylized text, CSS gradients, navigation bars, and seman
 
 ## Demo
 
-👉 <a href="meadsolomon.com" target="_blank">Deployed Link</a> </br></br>
+👉 <a href="https://meadsolomon.com" target="_blank">Deployed Link</a> </br></br>
 
 ![Intro Screenshot](img/screenshot.png)
 
