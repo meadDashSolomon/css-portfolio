@@ -1,6 +1,6 @@
-# css-portfolio
+# CSS Portfolio
 
-This is a CSS based portfolio
+This is a CSS and HTML based portfolio.
 
 ## Further Improvements
 
