@@ -11,7 +11,6 @@
   --font-size: 1.3rem;
   --mono: "Oxygen mono", monospace;
   --sans: Oxygen, sans-serif;
-  --ease-OutSnap: cubic-bezier(0.835, 0.085, 0.0005, 1);
 }
 
 /* border box model: https://css-tricks.com/box-sizing/ */
@@ -26,23 +25,6 @@ html {
   box-sizing: inherit;
 }
 
-/* Overlay styles */
-#page-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--aqua);
-  z-index: 1000;
-  transform: translateY(100%);
-  transition-delay: 0.2s;
-}
-
-#page-overlay.slide-down {
-  transition: transform 1s var(--ease-OutSnap);
-}
-
 /* generic styles for the page */
 
 body {
@@ -53,8 +35,6 @@ body {
   background-color: var(--black);
   color: var(--white);
   font-size: var(--font-size);
-  animation: slideInFromTop 1s ease-out forwards;
-  will-change: transform;
 }
 
 h1,
