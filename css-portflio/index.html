@@ -24,10 +24,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link
-      href="css/style.css"
+      href="./style.css"
       rel="stylesheet" />
   </head>
   <body>
+    <div id="page-overlay"></div>
     <nav>
       <ul>
         <li>
@@ -76,7 +77,7 @@
 
     <section id="intro">
       <p class="name">Hi, my name is <span>Mead Solomon.</span></p>
-      <h2>I build websites.</h2>
+      <h2 id="typewriter"></h2>
       <p>
         I'm a software engineer specializing in Typescript, CSS, Three.js,
         MongoDB, and SQL.
@@ -254,5 +255,8 @@
 
       <p><small>&copy; 2024 Mead Solomon. All rights reserved.</small></p>
     </footer>
+    <script
+      type="module"
+      src="./script.js"></script>
   </body>
 </html>
