@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Mead Solomon's Portfolio</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="../static/favicon.png" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link
+      href="./style.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div id="page-overlay"></div>
+    <nav>
+      <ul>
+        <li>
+          <h1>
+            <a href="index.html">
+              <span
+                class="fa-solid fa-paintbrush"
+                aria-hidden="true"></span>
+              <span>Mead Solomon</span>
+            </a>
+          </h1>
+        </li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/meadsolomon/"
+            target="_blank">
+            <span
+              class="fa-brands fa-linkedin"
+              aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/meadDashSolomon"
+            target="_blank">
+            <span
+              class="fa-brands fa-github-square"
+              aria-hidden="true"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/document/d/1Nv5nmSAH_1qfEunrYSDDgHQnTXpF6Ne99G6I946Riig/edit?usp=sharing"
+            target="_blank"
+            class="button"
+            >Resume</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <section id="intro">
+      <p class="name">Hi, my name is <span>Mead Solomon.</span></p>
+      <h2 id="typewriter"></h2>
+      <p>
+        I'm a software engineer specializing in Typescript, CSS, Three.js,
+        MongoDB, and SQL.
+      </p>
+      <p>
+        Currently, I'm a software law patent fellow at the
+        <a
+          href="https://www.sandiego.edu/law/"
+          target="_blank"
+          >University of San Diego</a
+        >
+        making a career switch from law to design and coding.
+      </p>
+    </section>
+
+    <div class="gradient"></div>
+
+    <div class="section-blue">
+      <section id="projects">
+        <h2>Projects I'm proud of</h2>
+        <article>
+          <div class="text">
+            <h4>Latest Project</h4>
+            <h3>Strive Life</h3>
+            <p class="blackbox">
+              This fitness tracking app is an all-encompassing solution for
+              personalized fitness management. It features a secure login system
+              for user data protection, a dynamic Workout Planner integrated
+              with an exercise API for tailored routines, and a Progress Tracker
+              for visualizing fitness achievements. The app also encourages
+              community engagement through a Chat feature and Social Feed.
+              Finally, it includes an AI Chat powered by Open AI's API for
+              customized workout advice. The app's repository is available
+              <a
+                href="https://github.com/meadDashSolomon/strive-life"
+                target="_blank"
+                >here</a
+              >
+              for further exploration.
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>Typescript</li>
+              <li>Postgres</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <img
+            src="../static/strive-life.png"
+            alt="Screenshot of the Strive Life." />
+        </article>
+
+        <article class="alt-layout">
+          <div class="text">
+            <h4>E-Commerce Project</h4>
+            <h3>Marfa Marketplace and Depot</h3>
+            <p class="blackbox">
+              This project simulates an e-commmerce website. The user can view
+              the product information, taken from a sample API, and interact
+              with the product's styles, images, related products, ratings,
+              reviews, and more. The back-end efficiently handles data requests
+              and management for the questions and answers component of the
+              -end. The front-end's repository is available
+              <a
+                href="https://github.com/meadDashSolomon/marfa-market"
+                target="_blank"
+                >here</a
+              >, and the back-end's repository is available
+              <a
+                href="https://github.com/meadDashSolomon/marfa-market-depot"
+                target="_blank"
+                >here</a
+              >.
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>Vite</li>
+              <li>MongoDB</li>
+              <li>AWS</li>
+              <li>NGINX</li>
+            </ul>
+          </div>
+          <img
+            src="../static/marfa.png"
+            alt="Screenshot of Marfa Market." />
+        </article>
+
+        <article>
+          <div class="text">
+            <h4>Legal Research Project</h4>
+            <h3>Patent Scanner</h3>
+            <p class="blackbox">
+              Patent Scanner is a tool developed to streamline the process of
+              retrieving, analyzing, and formatting the locations of patent
+              assignees and inventors. This tool operates at a rate
+              approximately 500 times faster than manual processing and with
+              greater accuracy, eliminating a common source of human error. The
+              information retrieved is critical for testing the hypothesis that
+              patent holders located outside the United States are less likely
+              to defend their patents when challenged as invalid. The repository
+              is available
+              <a
+                href="https://github.com/meadDashSolomon/patent-scanner"
+                target="_blank"
+                >here</a
+              >.
+            </p>
+
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>node.js</li>
+            </ul>
+          </div>
+          <img
+            src="../static/patent.png"
+            alt="Screenshot of a patent." />
+        </article>
+      </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <div class="section-plum">
+      <section id="contact">
+        <h2>Contact me</h2>
+        <p>I'm always open to connect, collaborate, or just chat.</p>
+
+        <p>
+          <a
+            href="mailto:meadsolomon@gmail.com"
+            target="_blank"
+            class="button"
+            >Email me</a
+          >
+        </p>
+      </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <footer>
+      <h2>Mead Solomon &middot; Designer</h2>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/meadsolomon/"
+            target="_blank">
+            <span
+              class="fa-brands fa-linkedin"
+              aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/meadDashSolomon"
+            target="_blank">
+            <span
+              class="fa-brands fa-github-square"
+              aria-hidden="true"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:meadsolomon@gmail.com"
+            target="_blank">
+            <span
+              class="fa-solid fa-envelope"
+              aria-hidden="true"></span>
+            <span class="sr-only">Email</span>
+          </a>
+        </li>
+      </ul>
+
+      <p><small>&copy; 2024 Mead Solomon. All rights reserved.</small></p>
+    </footer>
+    <script
+      type="module"
+      src="./script.js"></script>
+  </body>
+</html>
